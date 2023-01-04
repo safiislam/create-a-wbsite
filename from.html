@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From of pitha</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="audio-video.html">Media</a></li>
+                <li><a href="from.html">From</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to Vilage Pitha Gor</h1>
+        <form action="shop">
+            <label for="name">Your name 
+                <input type="text" name="text" id="name" placeholder="Enter you name">
+            </label>
+            <label for="email">Your email
+                <input type="email" name="email" id="email" placeholder="Enter your Email">
+            </label>
+            <label for="number">Your Number
+                <input type="number" name="number" id="number" placeholder="Enter Your Number">
+            </label>
+            <fieldset>
+                <legend>Pik one pitha</legend>
+                <label for="citoy">
+                    <input type="radio" name="pitha" id="chitoy">Chetoy
+                </label>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="">Vapa
+                </label>
+                <label for="coconut">
+                    <input type="radio" name="pitha" id="coconu">Coconut
+                </label>        
+            </fieldset>
+            <fieldset>
+                <legend>Select one more Vorta</legend>
+                <label for="sutki">
+                    <input type="checkbox" name="sutki" id="sutki">Sutki
+                </label>
+                <label for="sorisa">
+                    <input type="checkbox" name="sorisa" id="sorisa">Sorisa
+                </label>
+                <label for="dal">
+                    <input type="checkbox" name="dal" id="dal">Dal
+                </label>
+                
+
+            </fieldset>
+            <fieldset>
+                <legend>Special Instraction</legend>
+                <label for="text">
+                    <textarea name="text" id="text" cols="30" rows="5"></textarea>
+                </label>
+                
+            </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </main>
+    
+</body>
+</html>
